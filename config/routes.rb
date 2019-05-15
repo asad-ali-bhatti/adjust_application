@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get 'repositories', to: 'search#respositories'
+  namespace :api do
+    namespace :v1 do
+      get 'repositories', to: 'search#repositories'
+    end
+  end
 end
