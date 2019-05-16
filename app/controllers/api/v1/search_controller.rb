@@ -3,7 +3,7 @@ module Api
     class SearchController < ApiController
       def repositories
         result =  search_client.query(params[:query])
-        render json: {success: result }
+        render json: result
       end
 
       private

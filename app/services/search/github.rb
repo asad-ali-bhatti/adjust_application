@@ -8,7 +8,8 @@ module Search
     end
 
     def query(str)
-      @client.search_repositories(str, @options)
+      response = @client.search_repositories(str, @options)
+      response.items.map(&:to_h)
     end
   end
 end
