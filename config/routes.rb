@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       get 'repositories', to: 'search#repositories'
     end
   end
+
+  root 'home#show'
 end
