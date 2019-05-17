@@ -1,24 +1,31 @@
-# README
+###Idea:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ A simple application that search and display Github repositories. 
+ 
+###Tech Stack: 
+ It uses Ruby on Rails for the backend and React for the front-end.
+ 
+###Tests
+ Tests are written in Rspec. you can run tests by following command.
+ 
+ ``rspec .``
 
-Things you may want to cover:
+###Setup:
+ - Clone application.
+   
+   ``git clone git@github.com:asad-ali-bhatti/adjust_application.git``  
+ - Go to application folder and install required gems. 
+   
+   ``bundle install``
+   
+ - Install front end packages.
+   
+   ``yarn install`` 
+ 
+ - Provide environment variables. 
 
-* Ruby version
+   ``echo 'GITHUB_TOKEN=your-token' > .env``
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Start Server
+   
+   ``rails s``    
