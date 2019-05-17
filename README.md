@@ -1,16 +1,16 @@
-###Idea:
+# Idea:
 
  A simple application that search and display Github repositories. 
  
-###Tech Stack: 
+### Tech Stack: 
  It uses Ruby on Rails for the backend and React for the front-end.
  
-###Tests
+### Tests
  Tests are written in Rspec. you can run tests by following command.
  
  ``rspec .``
 
-###Setup:
+### Setup:
  - Clone application.
    
    ``git clone git@github.com:asad-ali-bhatti/adjust_application.git``  
