@@ -29,3 +29,8 @@
  - Start Server
    
    ``rails s``    
+
+### Things left to do
+  - Test Github search service using VCR gem (it will send actual request and record for future)
+  - Provide proper failure messages in response 
+  - Provide Exception handling in Github search service.(handle cases like service unavailable)
